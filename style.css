@@ -1,5 +1,36 @@
 
-h1{
+ *{
+    font-family: "poppins", sans-serif;
+    margin: 10px;
+ }
+
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+ }
+.nav-title{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 800;
+     
+}
+ 
+
+.travel, .home{
+    color: ff5400;
+}
+.home{
+    font-weight: 600;
+}
+
+ .nav-menu ul li{
+    color: #7a7a7e;
+    font-weight: 500;
+    display: inline-block;
+ }
+/* h1{
     background-color: aqua;
     text-transform: uppercase;
-}
+} */
